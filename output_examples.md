@@ -102,6 +102,60 @@ Generated Output:
 baru kusadari saya aku sudah mulai mengurangi scroll tiktok dan saya akan mulai melakukan waktu lama lama lama saya tidak pernah berhenti
 ==================================================
 
+Prompt > gw bangun tidur langsung
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+gw bangun tidur langsung pegang hp
+==================================================
+
+Prompt > gw mandi sambil
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+gw mandi sambil klik pake hp
+==================================================
+
+Prompt > gw ngantri sambil
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+gw ngantri sambil rebahan
+==================================================
+
+Prompt > gw nunggu sambil
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+gw nunggu sambil play video ini sambil klik video ini
+==================================================
+
+Prompt > gw main hp sambil
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+gw main hp sambil rebahan dibantal aktif sampe scroll
+==================================================
 ```
 
 ## Temperature > 0.001 K
