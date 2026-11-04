@@ -288,6 +288,39 @@ Generating text completion...
 Generated Output:
 jangan sampai ortu kalian tahu kalau saya nonton video ini karena saya tidak pernah berhentiscroll sosmed saya tidak suka tiktokan ke hp saya dan saya
 ==================================================
+
+Prompt > jempol gw selalu ada di
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+jempol gw selalu ada di beranda
+==================================================
+
+Prompt > hp gw selalu ada di
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+hp gw selalu ada di sosmed
+==================================================
+
+Prompt > diri gw selalu ada di
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+diri gw selalu ada di video ini dan gak pernah sadar kalo gue milainin game dan yap gw ga bisa lepas dari sosmed
+==================================================
 ```
 
 ## Temperature > 0.001 K
