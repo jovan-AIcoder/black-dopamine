@@ -1,0 +1,7 @@
+{
+  "embedding_dim": 128,
+  "hidden_dim": 256,
+  "num_layers": 2,
+  "vocab_size": 18143,
+  "max_seq_len": 30
+}
