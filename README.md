@@ -115,7 +115,7 @@ Exiting BLACK DOPAMINE. Good luck!
 > When I test out the model like above, I found that **BLACK DOPAMINE** exhibits behavior strikingly reminiscent of a chronic TikTok scroller after a 10+ hour doomscrolling binge. LSTM language models have **vanishing gradient problem**, so when the sequence length is made longer, the model will start with a coherent prompt, but gradually loses long-term context—yielding a stream-of-consciousness output filled with social media jargon, random typos, and fragmented thoughts. The other word is, **"The attention span of the model is very short."**
 
 ## Summary of the Dataset & Model Evaluation
-View this on your Terminal by running `summary.py`. The output is:
+This is the output of `summary.py`, and the output is:
 
 ```plaintext
 ============================================================
