@@ -27,9 +27,9 @@
 
 **BLACK DOPAMINE** uses public comments from YouTube videos collected via scraping (`fetch_comments.py`) for research, model design experiments, and educational purposes in machine learning. To maintain research integrity and respect user privacy:
 
-1. **Anonymization & PII Protection:** No raw datasets, user metadata (such as usernames, profile links, or `user_id`), or original full-length comment threads are stored or published in this repository.
+1. **Anonymization & PII Protection:** No raw datasets, user metadata (such as usernames, profile links, or `user_id`), or original full-length comment threads are stored or published in this repository. 
 2. **Vocabulary Artifacts (`vocab.json`):** The published vocabulary file contains isolated, single-word tokens extracted from the corpus. It DOES NOT contain Personally Identifiable Information (PII) and cannot be used to reconstruct original user messages or trace back to specific individuals.
-3. **Platform Compliance:** Raw user data is strictly kept offline and unshared (it's also listed on `.gitignore`) to align with platform Terms of Service (ToS) regarding mass data redistribution. Only derived technical artifacts and source code are included in this public repository.
+3. **Platform Compliance:** Raw user data is strictly kept offline and unshared (it's also listed on `.gitignore`) to align with platform Terms of Service (ToS) regarding mass data redistribution. The binary files (`.npy`) that contains training dataset is also listed on `.gitignore` and kept unshared. Only derived technical artifacts and source code are included in this public repository.
 4. **Scope of Usage:** This repository and its components are used purely for non-commercial research, academic exploration, and algorithm optimization.
 
 ---
