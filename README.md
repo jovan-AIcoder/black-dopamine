@@ -227,6 +227,7 @@ Prompt > exit
 Exiting BLACK DOPAMINE. Good luck!
 
 ```
+**Note: More output examples are listed on `output_examples.md`.**
 
 ### Analysis
 
