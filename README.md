@@ -62,11 +62,16 @@ python generate.py
 
 ## Output Example of `generate.py`
 
+### Temperature 0.001 K or lower
+
 ```plaintext
 
 === WELCOME TO BLACK DOPAMINE MODEL ===
 
 Loading pre-trained model and metadata...
+I0000 00:00:1793753939.830741   11620 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPUinstructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
 Model loaded successfully! Vocabulary size: 18143 tokens.
 
 WARNING: This model is trained in INDONESIAN [ID] language. Please input prompt IN INDONESIAN [ID].
@@ -74,37 +79,49 @@ WARNING: This model is trained in INDONESIAN [ID] language. Please input prompt 
 === Interactive Prompt Generation Ready! ===
 Type 'quit' or 'exit' to stop the execution.
 
-Prompt > otak gw kena brain rot gara gara 
-Temperature (default 0.7, recommended 0.2 - 1.2) > 0.2
-Max Words to Generate (default 20) > 15
-
-Generating text completion...
-
-==================================================
-Generated Output:
-otak gw kena brain rot gara gara dihape benr dicontohin mantepppp kanvas sok2an 202528 depressed sampah2 tiktik aneka mobile dooming giliran novelty
-==================================================
-
 Prompt > bagi otak gw doomscrolling itu
-Temperature (default 0.7, recommended 0.2 - 1.2) > 0.2
-Max Words to Generate (default 20) > 15
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+E0000 00:00:1793753947.580552   11620 util.cc:131] oneDNN supports DT_BOOL only on platforms with AVX-512. Falling back to the default Eigen-based implementation if present.
+
+==================================================
+Generated Output:
+bagi otak gw doomscrolling itu bisa jadi lebih baik
+==================================================
+
+Prompt > otak gw kena brain rot gara gara
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
 
 Generating text completion...
 
 ==================================================
 Generated Output:
-bagi otak gw doomscrolling itu ajaga manajemen previllege singakatan nyetel sesuatunya identifikasi kewajiban very sepowerful propaganda pengangguran insomnia fact dijaman
+otak gw kena brain rot gara gara gara nonton video panjang dripada pendek dan itu juga
 ==================================================
 
-Prompt > brain rot gw parah banget sampai
-Temperature (default 0.7, recommended 0.2 - 1.2) > 0.2
-Max Words to Generate (default 20) > 15
+Prompt > brain rot otak gw parah bgt sampai
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
 
 Generating text completion...
 
 ==================================================
 Generated Output:
-brain rot gw parah banget sampai bkan sekalih sahabat modyar kebayang sempet kontradiksi ngapangapain scarltt ksn yasss badeni piknolepsi sehatt kebesaran
+brain rot otak gw parah bgt sampai skrg sih
+==================================================
+
+Prompt > brain rot bikin otak gw jadi
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+brain rot bikin otak gw jadi lebih sehat
 ==================================================
 
 Prompt > exit
@@ -112,7 +129,108 @@ Exiting BLACK DOPAMINE. Good luck!
 
 ```
 
-> When I test out the model like above, I found that **BLACK DOPAMINE** exhibits behavior strikingly reminiscent of a chronic TikTok scroller after a 10+ hour doomscrolling binge. LSTM language models have **vanishing gradient problem**, so when the sequence length is made longer, the model will start with a coherent prompt, but gradually loses long-term context—yielding a stream-of-consciousness output filled with social media jargon, random typos, and fragmented thoughts. The other word is, **"The attention span of the model is very short."**
+### Temperature > 0.001 K
+```plaintext
+
+=== WELCOME TO BLACK DOPAMINE MODEL ===
+
+Loading pre-trained model and metadata...
+I0000 00:00:1793761184.952446   27192 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPUinstructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+Model loaded successfully! Vocabulary size: 18143 tokens.
+
+WARNING: This model is trained in INDONESIAN [ID] language. Please input prompt IN INDONESIAN [ID].
+
+=== Interactive Prompt Generation Ready! ===
+Type 'quit' or 'exit' to stop the execution.
+
+Prompt > gw doomscrolling sampai
+Temperature (default 0.001) > 0.1
+Max Words to Generate (default 20) > 15
+
+Generating text completion...
+E0000 00:00:1793761205.079213   27192 util.cc:131] oneDNN supports DT_BOOL only on platforms with AVX-512. Falling back to the default Eigen-based implementation if present.
+
+==================================================
+Generated Output:
+gw doomscrolling sampai wassalam mangakomik sembari jatohnya sosemed with merajai rapi opo bulam topiktopik menyerapmenerima pengaruhnya meminest postingan2
+==================================================
+
+Prompt > gw doomscrolling sampai
+Temperature (default 0.001) > 0.01
+Max Words to Generate (default 20) > 15
+
+Generating text completion...
+
+==================================================
+Generated Output:
+gw doomscrolling sampai habis gagasan nya dan dilancarkan dilokasi kerja di media sosial assalamualaikumkalau dengan batas hafas batas
+==================================================
+
+Prompt > otak gw kena brain rot sampai
+Temperature (default 0.001) > 0.005
+Max Words to Generate (default 20) >  
+
+Generating text completion...
+
+==================================================
+Generated Output:
+otak gw kena brain rot sampai 3 bulan
+==================================================
+
+Prompt > menurut gw dunia sekarang udah kayak
+Temperature (default 0.001) > 0.7
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+menurut gw dunia sekarang udah kayak lest max easter vibesnya ngandelin bangunannya noob dowload kidi kacamata siaw ululululuululululul menjauhin mengigati gantiin tiktot menyembuhkan dibates akeh diintervensi
+==================================================
+
+Prompt > menurut gw dunia sekarang udah kayak
+Temperature (default 0.001) > 0.1
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+menurut gw dunia sekarang udah kayak least susanto mendorong akunya sak easter buatku nba ytube 28092025 tampang awalmyangotrol tertundanta dongggggg kisahny dialektika mengawang bayangan dikhususkan
+==================================================
+
+Prompt > menurut gw dunia sekarang udah kayak
+Temperature (default 0.001) > 0.005
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+menurut gw dunia sekarang udah kayak gitu mengehentikan daffi b dan ada nya tumpukan headline wajah yg di bawah grounding ada kita yg berjam2nya sama menunjukkan
+==================================================
+
+Prompt > menurut gw dunia sekarang udah kayak
+Temperature (default 0.001) > 0.02
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+menurut gw dunia sekarang udah kayak gitu learning moyang dan kalo gw ammi menambah v7e wlwpun behavior 6070 klo 450rb rupiah boomerang kompas ustadzz lamer wabarakatuh
+==================================================
+
+Prompt > exit
+Exiting BLACK DOPAMINE. Good luck!
+
+```
+
+### Analysis
+
+> When I test out the model under those configurations above, **at T > 0.001 K**, I found that **BLACK DOPAMINE** exhibits behavior strikingly reminiscent of a chronic TikTok scroller after a 10+ hour doomscrolling binge. As a context, LSTM language models have **vanishing gradient problem**, so when the sequence length is made longer, the model will start with a coherent prompt, but gradually loses long-term context—yielding a stream-of-consciousness output filled with social media jargon, random typos, and fragmented thoughts. The other word is, **"The attention span of the model is very short."** Also, at high temperature, the variance of the softmax distribution (to choose next token) is larger, so the model will be more creative (like brain rots) and behave more wildly. But **at T = 0.001 K or lower**, the model will choose a token that has largest probability, so the model output will be deterministic. The output at this temperature will be clear and logic (but sometimes its logic is false).
 
 ## Summary of the Dataset & Model Evaluation
 This is the output of `summary.py`, and the output is:

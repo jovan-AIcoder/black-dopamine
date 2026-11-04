@@ -14,7 +14,7 @@ def sample_with_temperature(logits: np.ndarray, temperature: float = 1.0) -> int
     logits = np.asarray(logits, dtype=np.float64)
     
     # Low temperature limit: deterministic / greedy selection
-    if temperature <= 0.01:
+    if temperature <= 0.001:
         return int(np.argmax(logits))
     
     # Scale logits by temperature
@@ -124,12 +124,12 @@ def main():
                 print("[Warning] Prompt cannot be empty. Please enter a word or phrase.\n")
                 continue
                 
-            temp_input = input("Temperature (default 0.7, recommended 0.2 - 1.2) > ")
+            temp_input = input("Temperature (default 0.001) > ")
             try:
-                temperature = float(temp_input) if temp_input.strip() else 0.7
+                temperature = float(temp_input) if temp_input.strip() else 0.001
             except ValueError:
-                print("[Warning] Invalid temperature input. Falling back to default (0.7).")
-                temperature = 0.7
+                print("[Warning] Invalid temperature input. Falling back to default (0.001).")
+                temperature = 0.001
 
             gen_len_input = input("Max Words to Generate (default 20) > ")
             try:
