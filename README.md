@@ -301,5 +301,5 @@ Driven by a first-principles approach to computational physics and machine learn
 
 ## 🛑 A Note for Developers
 
-> *"To all developers out there: if you're going to build an AI model, build it in Python from first principles **like in this repo** rather than just using API wrappers—so the internet doesn't get poisoned by poisonous brain rot bots like this."*
+> *"To all developers out there: if you're going to build an AI model, build it in Python from first principles **like in this repo**, rather than just chaining API wrappers. Understand the engine under the hood so we don't accidentally poison the internet with automated, syntactically persuasive brain rot bots. You also need to think twice about data privacy and user feelings when the internet is infected with your trash bots. DISCLAIMER that BLACK DOPAMINE IS A TRASH BOT, BUT I NEVER USE IT TO POISON THE INTERNET, BUT I MADE RESEARCH ON THE TOP OF IT."*
 > *— BLACK DOPAMINE Project Manifesto*
