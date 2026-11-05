@@ -321,6 +321,72 @@ Generating text completion...
 Generated Output:
 diri gw selalu ada di video ini dan gak pernah sadar kalo gue milainin game dan yap gw ga bisa lepas dari sosmed
 ==================================================
+
+Prompt > standar tiktok bikin gw jadi
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+standar tiktok bikin gw jadi bisa lepas dari sosial media
+==================================================
+
+Prompt > standar tiktok bikin otak gw jadi
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+standar tiktok bikin otak gw jadi pengaguran struk
+==================================================
+
+Prompt > standar tiktok bikin hidup gw jadi
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+standar tiktok bikin hidup gw jadi bisa jadi lebih baik
+==================================================
+
+Prompt > mama papa bangga kalo gw bisa
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+mama papa bangga kalo gw bisa jadi fokus dan cemas tanpa hp
+==================================================
+
+Prompt > doomscrolling bikin kuliah jadi
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+doomscrolling bikin kuliah jadi sakit kepala dia selalu bs mmbtasi nnton video
+==================================================
+
+Prompt > doomscrolling aja ga usah
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+doomscrolling aja ga usah di marahin an
+==================================================
 ```
 
 ## Temperature > 0.001 K
