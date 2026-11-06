@@ -11,7 +11,7 @@
 
 **This model is trained on an Indonesian-language text dataset from YouTube comments, so make sure that the prompt is in Indonesian [ID] language. The response is also in Indonesian [ID] language.**
 
-> **⚠️☣️WARNING: THIS MODEL IS BUILT FOR EDUCATIONAL AND EXPERIMENTAL PURPOSES ONLY, NOT INTENDED FOR PRODUCTIVITY OR AS A RELIABLE SOURCE OF SCIENTIFIC TRUTH. I'M NOT RESPONSIBLE IF THIS MODEL IS MISUSED. THE OUTPUT OF THE MODEL IS PURELY FROM STATISTICAL DISTRIBUTION OF THE TOKENS FROM THE DATASET, SO THIS MODEL CAN MAKE MISTAKES OR SAYING INAPPROPRIATE WORDS.**
+> **⚠️☣️WARNING: THIS MODEL IS BUILT FOR EDUCATIONAL AND EXPERIMENTAL PURPOSES ONLY, NOT INTENDED FOR PRODUCTIVITY OR AS A RELIABLE SOURCE OF SCIENTIFIC TRUTH. I'M NOT RESPONSIBLE IF THIS MODEL IS MISUSED. THE OUTPUT OF THE MODEL IS PURELY FROM STATISTICAL DISTRIBUTION OF THE TOKENS FROM THE DATASET (NO GUARDRAILS IN THIS MODEL, LSTM + SOFTMAX DISTRIBUTION PURELY), SO THIS MODEL CAN MAKE MISTAKES OR SAYING INAPPROPRIATE WORDS.**
 
 ---
 
@@ -306,5 +306,5 @@ Driven by a first-principles approach to computational physics and machine learn
 
 ## 🛑 A Note for Developers
 
-> *"To all developers out there: if you're going to build an AI model, build it in Python from first principles **like in this repo**, rather than just chaining API wrappers. Understand the engine under the hood so we don't accidentally poison the internet with automated, syntactically persuasive brain rot bots. You also need to think twice about data privacy and human empathy when the internet is infected with your trash bots. ☣️BLACK DOPAMINE IS AN EXAMPLE OF BRAIN ROT BOT, BUT I HAVE **NEVER** USE IT TO POISON THE INTERNET, **I BUILT IT STRICTLY FOR SCIENTIFIC RESEARCH AND CRITICAL DISCOURSE.**"*
+> *"To all developers out there: if you're going to build an AI model, build it in Python from first principles **like in this repo**, rather than just chaining API wrappers. Understand the engine under the hood so we don't accidentally poison the internet with automated, syntactically persuasive brain rot bots. You also need to think twice about data privacy and human empathy when the internet is infected with your trash bots. ☣️BLACK DOPAMINE IS AN EXAMPLE OF BRAIN ROT BOT, BUT I HAVE **NEVER** USE IT TO POISON THE INTERNET, **I BUILT IT STRICTLY FOR SCIENTIFIC RESEARCH AND CRITICAL DISCOURSE ANALYSIS.**"*
 > *— BLACK DOPAMINE Project Manifesto*
