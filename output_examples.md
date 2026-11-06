@@ -1,6 +1,6 @@
 # More Output Examples of BLACK DOPAMINE Model (Some Outputs Make You Laugh!)
 ## Warning
-**Some outputs may be harmful, inappropriate, or false. Use this as a reference of how BLACK DOPAMINE works, and do not use BLACK DOPAMINE as your AI assistant.**
+**☣️Some outputs may be harmful, inappropriate, or false. Use this as a reference of how BLACK DOPAMINE works, and do not use BLACK DOPAMINE as your AI assistant.**
 ## Temperature = 0.001 K or lower
 ```plaintext
 Prompt > misuh gw sekarang udah

@@ -11,7 +11,7 @@
 
 **This model is trained on an Indonesian-language text dataset from YouTube comments, so make sure that the prompt is in Indonesian [ID] language. The response is also in Indonesian [ID] language.**
 
-> **⚠️WARNING: THIS MODEL IS BUILT FOR EDUCATIONAL AND EXPERIMENTAL PURPOSES ONLY, NOT INTENDED FOR PRODUCTIVITY OR AS A RELIABLE SOURCE OF SCIENTIFIC TRUTH. I'M NOT RESPONSIBLE IF THIS MODEL IS MISUSED. THE OUTPUT OF THE MODEL IS PURELY FROM STATISTICAL DISTRIBUTION OF THE TOKENS FROM THE DATASET, SO THIS MODEL CAN MAKE MISTAKES OR SAYING INAPPROPRIATE WORDS.**
+> **⚠️☣️WARNING: THIS MODEL IS BUILT FOR EDUCATIONAL AND EXPERIMENTAL PURPOSES ONLY, NOT INTENDED FOR PRODUCTIVITY OR AS A RELIABLE SOURCE OF SCIENTIFIC TRUTH. I'M NOT RESPONSIBLE IF THIS MODEL IS MISUSED. THE OUTPUT OF THE MODEL IS PURELY FROM STATISTICAL DISTRIBUTION OF THE TOKENS FROM THE DATASET, SO THIS MODEL CAN MAKE MISTAKES OR SAYING INAPPROPRIATE WORDS.**
 
 ---
 
@@ -292,6 +292,10 @@ E0000 00:00:1793676147.277389   15476 util.cc:131] oneDNN supports DT_BOOL only 
                 SUMMARY PROCESS COMPLETED               
 ============================================================
 ```
+## Wordcloud Analysis for Dataset
+This is the output of `word_cloud_analysis.py`, to view the characteristics of the dataset:
+
+![wordcloud](wordcloud.png)
 
 ## 🤝 Author
 
