@@ -1,6 +1,6 @@
 # More Output Examples of BLACK DOPAMINE Model (Some Outputs Make You Laugh!)
 ## Warning
-**☣️Some outputs may be harmful, inappropriate, or false. Use this as a reference of how BLACK DOPAMINE works, and do not use BLACK DOPAMINE as your AI assistant.**
+**☣️Some outputs may be harmful, inappropriate, or false. Use this as a reference of how BLACK DOPAMINE works, and do not use BLACK DOPAMINE as your AI assistant. If these outputs are rage-baiting, just ignore it, because it's caused PURELY by the softmax distribution (if you set T = 0.001 K or lower, the model will take the argmax of the probability distribution of the tokens). This model has no guardrails, so BLACK DOPAMINE sometimes acts like someone who lives without ethics and gives no thought to the feelings of others.**
 ## Temperature = 0.001 K or lower
 ```plaintext
 Prompt > misuh gw sekarang udah
@@ -387,6 +387,50 @@ Generating text completion...
 Generated Output:
 doomscrolling aja ga usah di marahin an
 ==================================================
+
+Prompt > tiap hari mah gw 
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+tiap hari mah gw hapus tiktok dan ig
+==================================================
+
+Prompt > lu ga sadar ya output lu brain rot bgt kayak
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+lu ga sadar ya output lu brain rot bgt kayak gini
+==================================================
+
+Prompt > lu jawab apaan sih
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+lu jawab apaan sih bang
+==================================================
+
+Prompt > ngawur output lu semua kayak
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+ngawur output lu semua kayak gitu
+==================================================
 ```
 
 ## Temperature > 0.001 K
@@ -422,5 +466,16 @@ Generating text completion...
 ==================================================
 Generated Output:
 menyala abangku hpsemoga judul entertain sebertahan gizi suntik skipclose tongkronganterutama heart homescreen sosmedhp dongawalnya temendisekolah samawaw mbosenin kaya kreator kyeoptaaa maksiat phase
+==================================================
+
+Prompt > gw hari ini mau
+Temperature (default 0.001) > 0.1
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+gw hari ini mau goyah factory keikut besoksaya pemabukkk nasibnya hiperaktif kerusakan tergantungkalau yuuu nguragin flat bapakk perobatan pelajaran2 overwhelm barusan memelihara esok voodu
 ==================================================
 ```
