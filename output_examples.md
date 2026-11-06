@@ -431,6 +431,61 @@ Generating text completion...
 Generated Output:
 ngawur output lu semua kayak gitu
 ==================================================
+
+Prompt > mari kita doomscrolling sebab doomscrolling bikin gw jadi
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 25
+
+Generating text completion...
+
+==================================================
+Generated Output:
+mari kita doomscrolling sebab doomscrolling bikin gw jadi semakin paham
+==================================================
+
+Prompt > doomscrolling bikin brain rot karena
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+doomscrolling bikin brain rot karena ada konten yg lain panjang
+==================================================
+
+Prompt > joget bikin gw suka
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+joget bikin gw suka gini sih bang
+==================================================
+
+Prompt > doomscrolling bikin tugas jadi
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+doomscrolling bikin tugas jadi sakit kepala melingkar di kepala kmrin itu
+==================================================
+
+Prompt > doomscrolling bikin fokus jadi
+Temperature (default 0.001) > 
+Max Words to Generate (default 20) > 
+
+Generating text completion...
+
+==================================================
+Generated Output:
+doomscrolling bikin fokus jadi serem
+==================================================
 ```
 
 ## Temperature > 0.001 K
